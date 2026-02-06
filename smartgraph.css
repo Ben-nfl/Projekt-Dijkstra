@@ -103,3 +103,34 @@ This should help you understand which styles you can apply to each type of eleme
     -fx-opacity: 1;
     -fx-fill: transparent; /* important to keep for curved edges */
 }
+
+/* Dijkstra path highlighting classes */
+
+.highlighted-edge {
+    -fx-stroke: #4CAF50;
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: none;
+    -fx-opacity: 1.0;
+    -fx-fill: transparent;
+}
+
+.highlighted-vertex {
+    -fx-fill: #A5D6A7;
+    -fx-stroke: #2E7D32;
+    -fx-stroke-width: 3;
+    -fx-stroke-type: inside;
+}
+
+.start-vertex {
+    -fx-fill: #FFB74D;
+    -fx-stroke: #E65100;
+    -fx-stroke-width: 4;
+    -fx-stroke-type: inside;
+}
+
+.end-vertex {
+    -fx-fill: #EF5350;
+    -fx-stroke: #B71C1C;
+    -fx-stroke-width: 4;
+    -fx-stroke-type: inside;
+}
